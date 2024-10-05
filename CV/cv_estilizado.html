@@ -10,10 +10,12 @@
 <body>
 
     <div class="container">
+        <!-- Botón para cambiar de tema -->
+        <button id="theme-toggle">Cambiar Tema</button>
 
         <!-- Encabezado -->
         <div class="header">
-            <img src="C:\Users\sofia\bootcamp_programacion\CV\imagenes\imagen2.jpg" alt="Perfil Sofia Espinola">
+            <img src="imagenes/imagen2.jpg" alt="Sofia Espinola">
             <h1>Sofia Leonora Espinola Gonzalez</h1>
             <p>Técnica en Servicios Informáticos</p>
             <p style="font-size: 0.7em;">Tengo una sólida capacidad para trabajar en equipo, acompañada de excelentes habilidades interpersonales que son clave para 
@@ -135,6 +137,14 @@
     <footer>
         <p>Encuentra mis proyectos en <a href="https://github.com/leoegonz" target="_blank">GitHub</a></p>
     </footer>
+
+    <script>
+        // JavaScript para cambiar el tema
+        const toggleButton = document.getElementById('theme-toggle');
+        toggleButton.addEventListener('click', () => {
+            document.body.classList.toggle('dark-theme');
+        });
+    </script>
 
 </body>
 </html>
