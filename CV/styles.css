@@ -1,0 +1,112 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+h1, h2, h3 {
+    color: #333;
+    font-family: 'Playfair Display', serif;
+}
+.header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #b296f4;
+}
+.header img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 15px;
+}
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+.header p {
+    margin: 10px 0;
+    color: #777;
+    font-size: 1.2em;
+}
+.section {
+    margin: 20px 0;
+}
+.section h2 {
+    color: #b296f4;
+    border-bottom: 2px solid #b296f4;
+    padding-bottom: 5px;
+}
+.experience, .education {
+    margin-bottom: 10px;
+}
+.experience h3, .education h3 {
+    margin: 0;
+    font-size: 1.3em;
+    color: #4b4b4b;
+}
+.experience p, .education p {
+    margin: 5px 0 10px;
+    color: #555;
+}
+.skills ul, .tech-section ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills ul li, .tech-section ul li {
+    background-color: #b296f4;
+    color: white;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.contact-info a {
+    color: #b296f4;
+    text-decoration: none;
+    font-weight: bold;
+}
+.contact-info a:hover {
+    text-decoration: underline;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #b296f4;
+}
+footer a {
+    color: #b296f4;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.date {
+    color: #3f3f3f;
+    font-style: italic;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+    .header img {
+        width: 100px;
+        height: 100px;
+    }
+    .header h1 {
+        font-size: 2em;
+    }
+}
